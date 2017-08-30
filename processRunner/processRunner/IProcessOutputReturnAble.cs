@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace processRunner
 {
-    interface process
+    public interface IProcessOutputReturnAble
     {
-        bool execute(out string message);
+        void ReturnOutput();
     }
 }
