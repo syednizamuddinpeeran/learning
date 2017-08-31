@@ -5,13 +5,14 @@ using System.Text;
 
 namespace processRunner
 {
-    public delegate void ProcessExecutionCompleteEventHandler();
+    public delegate void ProcessExecutionCompleteEventHandler(ProcessExecutionCompleteEventArgs e);
 
-    public interface IProcessExecutable
+
+    public interface IExecutable
     {
         event ProcessExecutionCompleteEventHandler ExecutionComplete;
 
-        bool Execute(out string ErrorMessage);
+        bool Execute();
     }
 
 }

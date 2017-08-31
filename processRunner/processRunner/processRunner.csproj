@@ -41,13 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IProcessExecutable.cs" />
-    <Compile Include="IProcessInputFetchable.cs" />
-    <Compile Include="IProcessOutputReturnAble.cs" />
+    <Compile Include="IExecutable.cs" />
+    <Compile Include="IParamaterTakeable.cs" />
+    <Compile Include="IParameteriseAble.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="ProcessExecutionCompleteEventArgs.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Text.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
