@@ -8,7 +8,9 @@ namespace processRunner
     public class Array : IParameteriseAble, IParamaterTakeable
     {
         private string _name;
+
         private Number _lengthOftheArray;
+
         private List<IParameteriseAble> _Array;
 
         public string GetName()
@@ -77,8 +79,7 @@ namespace processRunner
             if (param is Number)
             {
                 // need work here
-                _lengthOftheArray.SetName(param.GetName());
-                _lengthOftheArray.SetValue(param.GetValue());
+                throw new Exception("The property cannot be set because its read only");
             }
             else
             {
