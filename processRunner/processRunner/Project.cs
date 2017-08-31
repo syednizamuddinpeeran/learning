@@ -30,6 +30,7 @@ namespace processRunner
             throw new NotImplementedException();
         }
 
+
         public object GetValue()
         {
             throw new NotImplementedException();
@@ -40,6 +41,7 @@ namespace processRunner
             throw new NotImplementedException();
         }
 
+
         public void SetValue(object value)
         {
             throw new NotImplementedException();
@@ -47,26 +49,26 @@ namespace processRunner
         #endregion
 
         #region ParameterTakable implementation
+        public IParameteriseAble GetParameter(string paramaterName)
+        {
+            throw new NotImplementedException();
+        }
 
         public List<IParameteriseAble> GetParameters()
         {
             throw new NotImplementedException();
         }
 
-        public bool SetParameter(IParameteriseAble parameter)
+        public void SetParameter(string parameterName, IParameteriseAble parameter)
         {
             throw new NotImplementedException();
         }
 
-        public bool SetParameters(List<IParameteriseAble> parameterList)
+        public void SetParameters(List<IParameteriseAble> parameterList)
         {
             throw new NotImplementedException();
         }
 
-        public IParameteriseAble GetParameter()
-        {
-            throw new NotImplementedException();
-        }
 
         #endregion
     }

@@ -10,6 +10,14 @@ namespace processRunner
         private string _name;
         private float _value;
 
+        public Number() { }
+
+        public Number(string name, float value)
+        {
+            _name = name;
+            _value = value;
+        }
+
         public string GetName()
         {
             return _name;

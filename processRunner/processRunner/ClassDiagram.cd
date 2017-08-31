@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="processRunner.Project">
-    <Position X="7" Y="2.25" Width="1.5" />
+    <Position X="10.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAIAAAAgQAAAAAAAAAAAABAAAAAAAAwABADAA=</HashCode>
       <FileName>Project.cs</FileName>
@@ -9,7 +9,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="processRunner.Text">
-    <Position X="10.25" Y="0.5" Width="1.5" />
+    <Position X="5.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABAAIAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
       <FileName>Text.cs</FileName>
@@ -17,29 +17,37 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="processRunner.Number">
-    <Position X="10.25" Y="3.25" Width="1.5" />
+    <Position X="5.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABAAIAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
       <FileName>Number.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Struct Name="processRunner.ProcessExecutionCompleteEventArgs" Collapsed="true">
-    <Position X="0.5" Y="2.5" Width="2.75" />
+  <Class Name="processRunner.Array">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUIAAAIAAAAgAAAAAIAAAAAgABAACAAAAAwAAADAA=</HashCode>
+      <FileName>Array.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="processRunner.ProcessExecutionCompleteEventArgs">
+    <Position X="0.5" Y="1.75" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAgAAAAAAAAAAAAAAAAAgAAAgAAAAAgAAAAAA=</HashCode>
       <FileName>ProcessExecutionCompleteEventArgs.cs</FileName>
     </TypeIdentifier>
   </Struct>
   <Interface Name="processRunner.IExecutable">
-    <Position X="3.5" Y="1" Width="1.5" />
+    <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>IExecutable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="processRunner.IParameteriseAble">
-    <Position X="12.75" Y="1" Width="1.5" />
+    <Position X="3.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
       <FileName>IParameteriseAble.cs</FileName>
@@ -47,14 +55,14 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="processRunner.IParamaterTakeable">
-    <Position X="12.75" Y="3.25" Width="1.5" />
+    <Position X="3.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAgAAACAA=</HashCode>
       <FileName>IParamaterTakeable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Delegate Name="processRunner.ProcessExecutionCompleteEventHandler">
-    <Position X="0.5" Y="1.5" Width="2.75" />
+    <Position X="0.5" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IExecutable.cs</FileName>
